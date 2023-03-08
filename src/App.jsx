@@ -9,6 +9,7 @@ import Register from "./pages/Register"
 import { useState } from "react";
 import { useEffect } from "react";
 import Maths from "./pages/Maths";
+import MathChapters from "./pages/MathChapters";
 
 function App() {
 	const [login, setLogin] = useState(localStorage.getItem('login'))
@@ -27,6 +28,7 @@ function App() {
 				<Route path="/login" element={<Login />} />
 				<Route path="/register" element={<Register />} />
 				<Route path="/maths" element={<Maths />} />
+				<Route path="/mathsChapters"  element={<MathChapters />} />
 			</Routes>
 		</Router>
 	);
