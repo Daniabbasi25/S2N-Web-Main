@@ -7,13 +7,15 @@ import Navbar from "../components/Navbar";
 import "../styles/Math.css";
 import { useNavigate } from "react-router-dom";
 import { Bg } from '../components/Maths/Background';
+import CustomeNav from '../components/Maths/CustomeNav';
 Bg
 function Maths() {
   const navigate = useNavigate();
   return (
     <Bg>
       <HeaderBar>
-        <Navbar />
+        {/* <Navbar /> */}
+        <CustomeNav />
       </HeaderBar>
       <MainHeading linebreak={true} />
       <SubTitle title="Level 1" />
