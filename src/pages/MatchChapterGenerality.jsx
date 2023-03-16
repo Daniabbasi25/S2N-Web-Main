@@ -5,6 +5,7 @@ import HeaderWithBackground from '../components/Maths/HeaderWithBackGround';
 // importing custome style sheet 
 import abacus from  '../assets/abacusimage.png'
 import '../styles/Math.css'
+import MainButton from '../components/Maths/MainButton';
 function MatchChapterGenerality() {
   return (
     <Bg>
@@ -63,8 +64,8 @@ function MatchChapterGenerality() {
               Description <br /> & <br /> Vocabulary
             </h2>
             {/* <div></div> */}
-            <p className="boxParagraph" style={{ flexDirection: "column", }}>
-              <img src={abacus} style={{ width:'80%', height:'50%'}}/>
+            <p className="boxParagraph" style={{ flexDirection: "column" }}>
+              <img src={abacus} style={{ width: "80%", height: "50%" }} />
               An abacus consists of a wooden frame, 13 vertical bamboo rods that
               indicate ones, tens, hundreds, etc. a central bar also called the
               playback bar. On each vertical rod there are 7 balls, 5 under the
@@ -73,6 +74,48 @@ function MatchChapterGenerality() {
             </p>
           </div>
         </Container>
+      </div>
+
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          flexDirection: "column",
+          marginTop: "1rem",
+        }}
+      >
+        <Container>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "1rem",
+              flexWrap: "wrap",
+            }}
+          >
+            <h2 className="boxheading">Tips for Use</h2>
+            <p className="boxParagraph">
+              <ol>
+                <li>Take a good sitting position</li>
+                <li>Put abacus on your desk</li>
+                <li>Hold it with your left hand</li>
+                <li> Use your thumb to move the balls towards the top</li>
+                <li>
+                  Pass your index finger and your thumb through the reading bar.
+                </li>
+                <li>
+                  In order to return the abacus to the start, you must reset the
+                  cursor to zero.
+                </li>
+              </ol>
+            </p>
+          </div>
+        </Container>
+        <div style={{marginTop:5,marginLeft:'5rem', width:'40%', alignItems:'center', justifyContent:'center'}}>
+
+        <MainButton title={'Next >'}/>
+        </div>
       </div>
     </Bg>
   );
