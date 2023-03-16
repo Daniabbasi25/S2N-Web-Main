@@ -1,0 +1,43 @@
+.NavBarHeader{
+    /* background-color: red; */
+    background-image: url('../../assets/Maskgrouphd.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 5rem;
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 4px solid #000000;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.lightheading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+color: #000000;
+margin-left: 5rem;
+/* background-color: red; */
+}
+.icon{
+    font-weight: 600;
+    font-size: 35px;
+    align-self: center;
+    margin-bottom: 2.5rem;
+}
+.mainheading{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 52px;
+}
+
+
+
+

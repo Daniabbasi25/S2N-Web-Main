@@ -8,7 +8,7 @@ import "../styles/Math.css";
 import { useNavigate } from "react-router-dom";
 import { Bg } from '../components/Maths/Background';
 import CustomeNav from '../components/Maths/CustomeNav';
-Bg
+
 function Maths() {
   const navigate = useNavigate();
   return (
@@ -33,10 +33,11 @@ function Maths() {
   );
 }
 
-const HeaderBar=styled.div`
-display:flex;
-flex-direction:row
-`
+const HeaderBar = styled.div`
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+`;
 
 
 export default Maths

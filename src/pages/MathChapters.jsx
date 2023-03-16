@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import styled from "styled-components";
 
 import { Bg } from '../components/Maths/Background'
@@ -9,6 +10,7 @@ import SubTitle from '../components/Maths/SubTitle';
 import Navbar from "../components/Navbar";
 import "../styles/Math.css";
 function MathChapters() {
+  const navigate = useNavigate();
   return (
     <Bg>
       <HeaderBar>
@@ -20,7 +22,7 @@ function MathChapters() {
       <div className="row">
         <MainButton
           title="Generality"
-          onressevent={() => navigate("/mathsChapters")}
+          onressevent={() => navigate("/Generality")}
         />
         <MainButton
           title="Write Numbers"
@@ -45,6 +47,7 @@ function MathChapters() {
 const HeaderBar = styled.div`
   display: flex;
   flex-direction: row;
+  padding-top:3rem
 `;
 
 

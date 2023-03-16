@@ -3,5 +3,27 @@
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
+}
+.boxheading{
+    
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 33px;
+margin-left: 1rem;
+text-align: center;
+}
+.boxParagraph{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: justify;
+width: 70%;
+color: #000000;
 }

@@ -10,6 +10,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import Maths from "./pages/Maths";
 import MathChapters from "./pages/MathChapters";
+import MatchChapterGenerality from "./pages/MatchChapterGenerality";
 
 function App() {
 	const [login, setLogin] = useState(localStorage.getItem('login'))
@@ -29,6 +30,7 @@ function App() {
 				<Route path="/register" element={<Register />} />
 				<Route path="/maths" element={<Maths />} />
 				<Route path="/mathsChapters"  element={<MathChapters />} />
+				<Route path="/Generality"  element={<MatchChapterGenerality />} />
 			</Routes>
 		</Router>
 	);
