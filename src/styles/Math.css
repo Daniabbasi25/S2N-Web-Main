@@ -27,3 +27,143 @@ text-align: justify;
 width: 70%;
 color: #000000;
 }
+.checkboxitem{
+/* background-color: red !important; */
+display: flex;
+flex-direction: row;
+margin-left: 5rem;
+}
+.checkboxpoint{
+   
+    width: 1.5rem;
+    border-radius: 0%;
+
+}
+.label{
+    padding-left:   3rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+.Submitbutton{
+    background: #98FF87;
+border: 2px solid #000000;
+box-shadow: 2px 2px 0px #000000;
+border-radius: 15px;
+width: 246px;
+height: 69px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+
+align-items: center;
+text-transform: capitalize;
+
+color: #000000;
+margin-bottom: 5rem;
+align-self: flex-end;
+margin-right: 3rem;
+
+}
+.mathqueston{
+    background: #FFB68C;
+border: 3px solid #000000;
+box-shadow: 2px 2px 0px #000000;
+border-radius: 20px;
+width: 124px;
+height: 367px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+.mathqueston p{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+#inputfield{
+
+background: #FFFFFF;
+border: 3px solid #000000;
+box-shadow: 2px 2px 0px #000000;
+border-radius: 20px;
+width: 124px;
+height: 61px;
+margin-top: .3rem;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #35FF23;
+}
+.logquestoncontainerheading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+display: flex;
+align-items: center;
+
+color: #000000;
+margin-left: 3rem;
+}
+.quesion{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+.questioncontainer{
+    margin-left: 2rem;
+    /* background-color: rebeccapurple; */
+    width: 90%;
+    margin-bottom: 2rem;
+    
+}
+
+#textanswer{
+    background: #FFFFFF;
+border: 2px solid #000000;
+box-shadow: 2px 2px 0px #000000;
+border-radius: 15px;
+width: 190px;
+height: 58px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: #88FF50;
+text-align:center;
+}

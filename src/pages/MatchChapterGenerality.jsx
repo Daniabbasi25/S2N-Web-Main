@@ -6,7 +6,9 @@ import HeaderWithBackground from '../components/Maths/HeaderWithBackGround';
 import abacus from  '../assets/abacusimage.png'
 import '../styles/Math.css'
 import MainButton from '../components/Maths/MainButton';
+import { Navigate, useNavigate } from 'react-router-dom';
 function MatchChapterGenerality() {
+   const navigate = useNavigate();
   return (
     <Bg>
       <HeaderWithBackground
@@ -112,9 +114,16 @@ function MatchChapterGenerality() {
             </p>
           </div>
         </Container>
-        <div style={{marginTop:5,marginLeft:'5rem', width:'40%', alignItems:'center', justifyContent:'center'}}>
-
-        <MainButton title={'Next >'}/>
+        <div
+          style={{
+            marginTop: 5,
+            marginLeft: "5rem",
+            width: "40%",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <MainButton title={"Next >"} onressevent={() => navigate("/MCQS")} />
         </div>
       </div>
     </Bg>
