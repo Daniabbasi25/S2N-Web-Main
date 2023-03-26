@@ -14,6 +14,10 @@ import MatchChapterGenerality from "./pages/MatchChapterGenerality";
 import MCQexersise from "./pages/MCQexersise";
 import MathsQuestion from "./pages/MathsQuestion";
 import LongQuestion from "./pages/LongQuestion";
+import NumbersAbacus from "./pages/NumbersAbacus";
+import SimpleAddition from "./pages/SimpleAddition";
+import SubTraction from "./pages/SubTraction";
+import PlayGround from "./pages/PlayGround";
 
 function App() {
 	const [login, setLogin] = useState(localStorage.getItem('login'))
@@ -37,6 +41,10 @@ function App() {
         <Route path="/MCQS" element={<MCQexersise />} />
         <Route path="/MathsQuestion" element={<MathsQuestion />} />
         <Route path="/LongQuestion" element={<LongQuestion />} />
+        <Route path="/NumbersAbacus" element={<NumbersAbacus />} />
+        <Route path="/SimpleAddition" element={<SimpleAddition />} />
+        <Route path="/SubTraction" element={<SubTraction />} />
+        <Route path="/PlayGround" element={<PlayGround />} />
       </Routes>
     </Router>
   );

@@ -26,7 +26,7 @@ function Maths() {
         />
         <MainButton
           title="Playground"
-          onressevent={() => navigate("/mathsChapters")}
+          onressevent={() => navigate("/PlayGround")}
         />
       </div>
     </Bg>

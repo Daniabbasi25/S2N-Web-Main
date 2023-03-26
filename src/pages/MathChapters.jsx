@@ -26,19 +26,19 @@ function MathChapters() {
         />
         <MainButton
           title="Write Numbers"
-          onressevent={() => navigate("/mathsChapters")}
+          onressevent={() => navigate("/NumbersAbacus")}
         />
-        <MainButton
+        {/* <MainButton
           title="Decimals"
           onressevent={() => navigate("/mathsChapters")}
-        />
+        /> */}
         <MainButton
           title="Simple Addition"
-          onressevent={() => navigate("/mathsChapters")}
+          onressevent={() => navigate("/SimpleAddition")}
         />
         <MainButton
           title="Simple Subtraction"
-          onressevent={() => navigate("/mathsChapters")}
+          onressevent={() => navigate("/SubTraction")}
         />
       </div>
     </Bg>
