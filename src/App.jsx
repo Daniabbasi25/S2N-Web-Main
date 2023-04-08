@@ -18,6 +18,7 @@ import NumbersAbacus from "./pages/NumbersAbacus";
 import SimpleAddition from "./pages/SimpleAddition";
 import SubTraction from "./pages/SubTraction";
 import PlayGround from "./pages/PlayGround";
+import AllExercises from "./pages/AllExercises";
 
 function App() {
 	const [login, setLogin] = useState(localStorage.getItem('login'))
@@ -44,7 +45,7 @@ function App() {
         <Route path="/NumbersAbacus" element={<NumbersAbacus />} />
         <Route path="/SimpleAddition" element={<SimpleAddition />} />
         <Route path="/SubTraction" element={<SubTraction />} />
-        <Route path="/PlayGround" element={<PlayGround />} />
+        <Route path="/AllExercises" element={<AllExercises />} />
       </Routes>
     </Router>
   );

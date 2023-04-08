@@ -28,6 +28,10 @@ function Maths() {
           title="Playground"
           onressevent={() => navigate("/PlayGround")}
         />
+        <MainButton
+          title="Exercise"
+          onressevent={() => navigate("/AllExercises")}
+        />
       </div>
     </Bg>
   );
